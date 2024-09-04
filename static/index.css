@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Sans:wght@400..700&display=swap');
+
+body{
+    background-color: #17181f;
+    font-family: "Sans", sans-serif;
+    color: #dbdbdbd4;
+    font-weight: bold;
+    overflow-y: auto; 
+    overflow-x: auto;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ppp{
+    height: 60px;
+    width: 100%;
+    background-color: #14141b;
+    position: fixed;
+    
+}
+
+.jjj{
+    position: fixed;
+    top: 60px;
+    height: calc(100% - 60px);
+    width: 100%;
+    overflow-y: auto; 
+    overflow-x: auto;
+}
+
+.name{
+    position: relative;
+    left: 15px;
+    top: 18px;
+    font-size: 28px;
+    color: #00fecb;
+    float: left;
+}
+
+#uploadForm{
+    padding: 10px;
+    background-color: #20202c;
+    position: relative;
+    left: 10px;
+    width: calc(100% - 40px);
+}
+
+.kkkk{
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    left: -10px;
+    color: #c1c1c1;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s;
+    padding: 6px;
+    background-color: #14141b;
+    cursor: pointer;
+}
+
+.kkkk:hover{
+    color: #00fecb;
+}
+
+.hhdww{
+    padding: 10px;
+    background-color: #20202c;
+    position: relative;
+    left: 10px;
+    width: calc(100% - 40px);
+}
+
+#previewImage{
+    position: relative;
+}
+
+.qqss{
+    border: none;
+    border-radius: 5px;
+    color: #c1c1c1;
+    background-color: #17181f;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 15px;
+    outline: none; 
+    margin-bottom: 10px;
+}
+
+.qqss:focus {
+    outline: none; 
+}
+
+.ffvv{
+    color: #ff5656;
+}

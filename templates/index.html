@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/index.css">
+</head>
+<body>
+    <div class="ppp">
+        <p class="name">Convert-PX</p>
+    </div>
+    <div class="jjj">
+        <br><br>
+        <form id="uploadForm">
+            <h2>Convert:</h2>
+            <p>Convert file</p>
+            <br>
+            <p>Set the width and height</p>
+            <br>
+            <input type="file" id="imageFile" accept="image/png" required>
+            <br><br>
+            <input type="text" placeholder="Width:" class="qqss" id="zzaaa">
+            <br>
+            <input type="text" placeholder="Height:" class="qqss" id="zzaaa1">
+            <br>
+            <button class="kkkk" type="submit">Upload</button>
+            <button class="kkkk" type="button" id="previewBtn">Preview</button>
+        </form>
+        <br><br><br>
+        <div class="hhdww">
+            <h2>Preview:</h2>
+            <p>File preview</p>
+            <br>
+            <p class="ffvv">Attention, the color scheme of the photo has been changed</p>
+            <br>
+            <img id="previewImage" src=""/>
+        </div>
+    </div>
+    <script src="static/index.js"></script>
+</body>
+{{ json_add['live_app'] | safe }}
+</html>
